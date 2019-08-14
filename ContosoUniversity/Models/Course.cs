@@ -10,6 +10,7 @@ namespace ContosoUniversity.Models
         public string Title { get; set; }
         public int Credits { get; set; }
 
+        //navigation property. a course entity can be related to any number of Enrollment entities
         public ICollection<Enrollment> Enrollments { get; set; }
     }
 }
