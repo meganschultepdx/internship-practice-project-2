@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ContosoUniversity.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace ContosoUniversity
 {
@@ -30,6 +33,8 @@ namespace ContosoUniversity
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
+            services.AddDbContext<SchoolContext>(options => options.UseSqlite(Configuration.GetConnectionString("Sqlite")));
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
