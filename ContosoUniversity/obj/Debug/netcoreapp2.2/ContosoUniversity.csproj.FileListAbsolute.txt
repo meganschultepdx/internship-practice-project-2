@@ -28,3 +28,4 @@
 /Users/meganschulte/Projects/ContosoUniversity/ContosoUniversity/obj/Debug/netcoreapp2.2/ContosoUniversity.dll
 /Users/meganschulte/Projects/ContosoUniversity/ContosoUniversity/obj/Debug/netcoreapp2.2/ContosoUniversity.pdb
 /Users/meganschulte/Projects/ContosoUniversity/ContosoUniversity/obj/Debug/netcoreapp2.2/ContosoUniversity.csproj.CopyComplete
+/Users/meganschulte/Projects/ContosoUniversity/ContosoUniversity/obj/Debug/netcoreapp2.2/Razor/Views/Students/Index.g.cshtml.cs

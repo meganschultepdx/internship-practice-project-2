@@ -10,7 +10,7 @@ namespace ContosoUniversity.Models
     public class Enrollment
     {
         //primary key
-        public int EnrollemntID { get; set; }
+        public int EnrollmentID { get; set; }
         //foreign key and corresponding navigation prop is Course
         public int CourseID { get; set; }
         //foreign key

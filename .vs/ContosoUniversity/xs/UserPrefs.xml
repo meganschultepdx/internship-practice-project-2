@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{4CAD3EEE-305F-4CDC-A50B-0DD88CD97C74}|Default">
   <MonoDevelop.Ide.ItemProperties.ContosoUniversity PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoUniversity/Views/Students/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoUniversity/appsettings.json">
     <Files>
-      <File FileName="ContosoUniversity/Controllers/StudentsController.cs" Line="32" Column="1" />
-      <File FileName="ContosoUniversity/Views/Students/Index.cshtml" Line="1" Column="2" />
+      <File FileName="ContosoUniversity/Views/Students/Index.cshtml" Line="10" Column="42" />
+      <File FileName="ContosoUniversity/Data/DbInitializer.cs" Line="1" Column="1" />
+      <File FileName="ContosoUniversity/Models/Enrollment.cs" />
+      <File FileName="ContosoUniversity/Controllers/StudentsController.cs" Line="31" Column="2" />
+      <File FileName="ContosoUniversity/Startup.cs" Line="1" Column="1" />
+      <File FileName="ContosoUniversity/appsettings.json" Line="5" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +20,9 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
-                <Node name="Students" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Students" expanded="True" />
               </Node>
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
