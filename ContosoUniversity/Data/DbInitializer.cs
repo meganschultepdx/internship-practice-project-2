@@ -6,9 +6,9 @@ namespace ContosoUniversity.Data
 {
     public static class DbInitializer
     {
-        public static void initialize(SchoolContext context)
+        public static void Initialize(SchoolContext context)
         {
-            contect.Database.EnsureCreated();
+            context.Database.EnsureCreated();
 
             //Look for any students in Db.
             if(context.Students.Any())
