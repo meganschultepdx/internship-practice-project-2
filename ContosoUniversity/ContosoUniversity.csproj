@@ -21,5 +21,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Views\Students\" />
   </ItemGroup>
 </Project>
