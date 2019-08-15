@@ -34,6 +34,7 @@ namespace ContosoUniversity
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+                //found article online listing how to use sqlite instead of sqlservice 
             services.AddDbContext<SchoolContext>(options => options.UseSqlite(Configuration.GetConnectionString("Sqlite")));
 
 
